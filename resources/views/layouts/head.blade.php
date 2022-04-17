@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="/css/app.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -30,7 +32,7 @@
                     </div>
                     
                     <ul class="nav-list flex-row">
-                        <li class="nav-list-item dropdown">
+                        <li class="nav-list-item dropdown li-header">
                             <a href="/categories">CATEGORIES</a>
                             <div class="dropdown-content">
                                 @foreach ($importantCategories as $category)
@@ -38,7 +40,7 @@
                                 @endforeach
                             </div>
                         </li>
-                        <li class="nav-list-item"><a href="#">ABOUT US</a></li>
+                        <li class="nav-list-item li-header"><a href="#">ABOUT US</a></li>
                         <li class="nav-list-item li-cart">
                             <a href="/customers/Cart" class="a-cart">
                                 <i class="fa fa-shopping-cart" style="font-size:40px"></i>
