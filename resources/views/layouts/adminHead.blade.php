@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="/css/app.css">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
    
 </head>
 <body>
@@ -13,22 +15,22 @@
             <div class="flex-row admin-nav-content">
                 <div class="logo-container">
                     <a href="/">
-                        <img src="/storage/logo.png  " alt="Logo" class="main-logo">
+                    <img src="/storage/images/logo.png  " alt="Logo" class="main-logo">
                         <h1> E-Commerce</h1>
                     </a>
                 </div>
                 <div class="admin-second">
                     <ul class="admin-nav-list flex-row">
-                        <li class="nav-list-item dropdown">
+                        <li class="nav-list-item li-header">
                             <a href="/admin/users">Manage Users</a>
                         </li>
-                        <li class="nav-list-item">
+                        <li class="nav-list-item li-header">
                             <a href="/admin/categories">Manage Categories</a>
                         </li>
-                        <li class="nav-list-item">
+                        <li class="nav-list-item li-header">
                             <a href="/admin/subcategories">Manage Subcategories</a>
                         </li>
-                        <li class="nav-list-item">
+                        <li class="nav-list-item li-header">
                             <a href="/admin/products">Manage Products</a>
                         </li>
                     </ul>
