@@ -41,7 +41,7 @@ html {
 */
 
 body {
-  
+  font-family: 'big sholdur display';
   margin: 0; /* 1 */
   line-height: inherit; /* 2 */
 }
