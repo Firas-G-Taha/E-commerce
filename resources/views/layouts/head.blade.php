@@ -15,7 +15,7 @@
             <div class="flex-row nav-content">
                 <div class="logo-container">
                     <a href="/">
-                        <img src="/storage/logo.png  " alt="Logo" class="main-logo">
+                        <img src="/storage/images/logo.png  " alt="Logo" class="main-logo">
                         <h1> E-Commerce</h1>
                     </a>
                 </div>
